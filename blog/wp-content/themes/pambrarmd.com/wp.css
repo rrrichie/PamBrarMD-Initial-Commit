@@ -1,0 +1,175 @@
+/* And here begins the Wordpress fun.
+-------------------------------------------------------------------------------*/
+
+#page-wrap {width: 960px; margin: 20px auto;}
+
+.post {}
+
+.entry-content {}
+.entry-content a {}
+.entry-content a:hover {}
+
+#meta {}
+.postmetadata {}
+
+article {
+  border-bottom: 1px solid #EFEFEF;
+  float: left;
+  margin-bottom: 39px;
+  width: 570px;
+  margin-left: 70px;
+  font-family: Josefin Sans;
+}
+
+.meta
+{
+	margin-top: 23px;
+}
+
+article h2 {
+  border-bottom: 1px solid #CBCBCC;
+  font-family: Josefin Sans;
+  font-size: 27px;
+  font-weight: normal;
+  height: 57px;
+  padding-bottom: 26px;
+  margin-top: -6px;
+  width: 570px;
+}
+
+article h2 a
+{
+	color: #f96d39 !important;
+}
+
+footer time
+{
+	color: #349eab !important;
+	font-family: Josefin Sans;
+}
+
+#sidebar {
+  margin-left: 712px;
+  margin-top: 12px;
+  width: 250px;
+}
+
+.pam-img {
+  float: left;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  margin-top:  4px;
+}
+
+#text-2 {
+  border-bottom: 1px solid #CBCBCC;
+  color: #787878;
+  font-family: Josefin Sans;
+  margin-bottom: 18px;
+  margin-top: -16px;
+  padding-bottom: 35px;
+}
+
+#archives-2 {
+  border-bottom: 1px solid #CBCBCC;
+  margin-top: -10px;
+  padding-bottom: 18px;
+}
+
+#text-3
+{
+	margin-top: -5px;
+}
+
+
+#sidebar h2
+{
+	color: #349eab !important;
+	font-family: Josefin Sans;
+	font-size: 18px;
+}
+
+#sidebar ul
+{
+	 margin-left: 0;
+    margin-top: -20px;
+}
+
+#sidebar ul li a
+{
+	color: #787878;
+	text-decoration: none;
+	font-family: Josefin Sans;
+}
+
+.blog-header
+{
+	margin-top: 37px;
+}
+
+#respond
+{
+	/*float: left;*/
+	clear: left;
+}
+.navgation {}
+.next-posts {}
+.prev-posts {}
+
+#searchform {}
+#s {
+  border: 1px solid #EFEFEF !important;
+  width: 187px;
+}
+#searchsubmt {}
+
+#searchsubmit {
+  margin-left: 2px;
+  margin-top: -9px;
+}
+
+.alignleft
+{
+	float: left;
+}
+	
+ol.commentlist {list-style: none;}
+ol.commentlist li {}
+ol.commentlist li.alt {}
+ol.commentlist li.bypostauthor {}
+ol.commentlist li.byuser {}
+ol.commentlist li.comment-author-admin {}
+ol.commentlist li.comment {border-bottom: 1px dotted #666; padding: 10px;}
+ol.commentlist li.comment div.comment-author {}
+ol.commentlist li.comment div.vcard {}
+ol.commentlist li.comment div.vcard cite.fn {font-style: normal;}
+ol.commentlist li.comment div.vcard cite.fn a.url {}
+ol.commentlist li.comment div.vcard img.avatar {float:right; margin: 0 0 10px 10px;}
+ol.commentlist li.comment div.vcard img.avatar-32 {}
+ol.commentlist li.comment div.vcard img.photo {}
+ol.commentlist li.comment div.vcard span.says {}
+ol.commentlist li.comment div.commentmetadata {}
+ol.commentlist li.comment div.comment-meta {font-size: 10px;}
+ol.commentlist li.comment div.comment-meta a {color: #ccc;}
+ol.commentlist li.comment p {}
+ol.commentlist li.comment ul {}
+ol.commentlist li.comment div.reply {font-size: 11px;}
+ol.commentlist li.comment div.reply a {font-weight: bold;}
+ol.commentlist li.comment ul.children {list-style: none; margin: 10px 0 0;}
+ol.commentlist li.comment ul.children li {}
+ol.commentlist li.comment ul.children li.alt {}
+ol.commentlist li.comment ul.children li.bypostauthor {}
+ol.commentlist li.comment ul.children li.byuser {}
+ol.commentlist li.comment ul.children li.comment {}
+ol.commentlist li.comment ul.children li.comment-author-admin {}
+ol.commentlist li.comment ul.children li.depth-2 {border-left: 5px solid #555; margin: 0 0 10px 10px;}
+ol.commentlist li.comment ul.children li.depth-3 {border-left: 5px solid #999; margin: 0 0 10px 10px;}
+ol.commentlist li.comment ul.children li.depth-4 {border-left: 5px solid #bbb; margin: 0 0 10px 10px;}
+ol.commentlist li.comment ul.children li.depth-5 {}
+ol.commentlist li.comment ul.children li.odd {}
+ol.commentlist li.even {background: #fff;}
+ol.commentlist li.odd {background: #f6f6f6;}
+ol.commentlist li.parent {border-left: 5px solid #111;}
+ol.commentlist li.thread-alt {}
+ol.commentlist li.thread-even {}
+ol.commentlist li.thread-odd {}

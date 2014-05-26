@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} !^www\.               [NC]
+RewriteCond %{HTTP_HOST} ^([^.]+\.[a-z]{2,6})$ [NC]
+RewriteRule ^(.*)$       http://www.%1/$1      [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/ 
+RewriteRule ^index\.php$ http://www.pambrarmd.com/ [R=301,L]

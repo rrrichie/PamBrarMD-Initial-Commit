@@ -1,0 +1,511 @@
+body
+{
+	border-top: solid 12px #f96d39;
+	background-image:url(../../img/tile.jpg);
+}
+
+.body-back
+{
+	background:url(../../img/body-back.png);
+	background-repeat:repeat-y;
+}
+
+.container-fluid
+{
+	width: 1200px !important;
+	padding: 0px !important;
+	margin: 0px !important;
+	margin: auto !important;
+	
+}
+
+.col
+{
+	margin: 0px !important;
+	padding: 0px !important;
+	width: 99px !important;
+}
+
+.body-width
+{
+	margin: 0px !important;
+	width: 1002px !important;
+}
+
+.name-head {
+  color: #349EAB;
+  font-family: Josefin Sans;
+  font-size: 46px;
+  font-weight: bold;
+  margin-left: 72px;
+  margin-top: 45px;
+}
+.menu {
+  margin-left: 70px;
+  margin-top: 47px;
+}
+
+.menu a {
+  color: #787878;
+  font-family: Josefin Sans;
+  font-size: 18px;
+  margin: 12px;
+  text-decoration: none;
+  padding-bottom: 6px;
+}
+
+.menu a:hover, .active
+{
+	border-bottom: 3px solid #9fd9e0;
+	text-decoration:none;
+}
+
+.home-pic {
+margin-top: 41px;
+margin-left: 41px;
+}
+
+.slogan {
+margin-top: 125px;
+margin-left: -20px;
+}
+
+.soft-blue {
+  background-color: #9FD9E0;
+  height: 156px;
+  margin-top: 34px !important;
+}
+
+.folow {
+  color: #FFFFFF;
+  font-size: 55px;
+  margin-left: 75px;
+  margin-top: 69px;
+}
+
+.blue-border {
+border-right: 2px solid #cce8ec;
+height: 100px;
+position: relative;
+float: left;
+margin-left: 593px;
+margin-top: -64px;
+}
+
+
+
+.soft-blue-2 {
+  background-color: #9FD9E0;
+  height: 106px;
+  margin-top: 24px !important;
+}
+
+.folow-2 {
+color: #FFFFFF;
+font-size: 40px;
+margin-left: 175px;
+margin-top: 48px;
+}
+
+.blue-border-2 {
+border-right: 2px solid #cce8ec;
+height: 74px;
+position: relative;
+float: left;
+margin-left: 548px;
+margin-top: -56px;
+}
+
+.social-2 {
+float: right;
+margin-top: -49px;
+margin-right: 271px;
+}
+
+.red
+{
+	color: #fa8660;
+}
+
+.social-2 img
+{
+	margin-left: 25px;
+}
+
+.no-margin
+{
+	margin: 0px !important;
+}
+
+.w1
+{
+	width: 200px !important;
+}
+
+.follow
+{
+	font-size: 14px;
+	font-family: Josefin Sans;
+	color: #ffffff;
+}
+
+.social {
+  float: right;
+  margin-top: -58px;
+  margin-right: 170px;
+}
+
+/*.social img
+{
+	margin-left: 25px;
+}*/
+
+.body-text {
+  font-family: Josefin Sans;
+  margin-left: 98px;
+  margin-right: 98px;
+  margin-top: 30px;
+  font-size: 17px;
+}
+
+.body-text a
+{
+	color: #f36833;
+}
+
+.footer-menu {
+  color: #929292;
+  font-family: Josefin Sans;
+  font-size: 14px;
+  margin-left: 307px;
+  margin-top: 42px;
+}
+
+.footer-menu a {
+  color: #929292;
+  margin-bottom: 3px;
+  margin-left: 8px;
+  margin-right: 9px;
+  margin-top: 32px !important;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.copy {
+  color: #929292;
+  float: right;
+  font-family: Josefin Sans;
+  font-size: 14px;
+  margin-top: 47px;
+  margin-right: 30px;
+}
+
+
+.josefin
+{
+	font-family: Josefin Sans;
+}
+
+/*services.php*/
+.services-pad {
+	padding-left: 76px;
+	font-size: 19px;
+	padding-top: 16px;
+}
+
+.services-pad h3, .about-pad h3
+{
+	color: #f96d39;
+  font-size: 27px;
+  margin-bottom:0px;
+}
+
+.services-pad h4, .contact-pad h4 {
+color: #4aa5b1;
+text-transform: uppercase;
+font-size: 15px;
+margin-bottom: 0px;
+}
+
+.services-pad ul li
+{
+	list-style: circle;
+margin-left: 28px;
+}
+
+.services {
+margin-left: 72px;
+margin-top: 116px;
+}
+
+/*about.php*/
+
+
+.pam {
+    margin-left: -4px;
+    margin-top: 22px;
+}
+
+.about-pad {
+  padding-top: 13px;
+  padding-left: 11px;
+}
+
+/*contact.php*/
+.blue
+{
+	color: #4aa5b1;
+}
+
+.contact-pad {
+  margin-left: 10px;
+  padding-left: 29px;
+  padding-top: 42px;
+}
+
+#contact {
+  margin-top: 26px;
+  margin-left: 7px;
+}
+
+#contact label {
+  clear: left;
+  color: #349EAB;
+  display: block;
+  float: left !important;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+#contact input[type=text] {
+  float: right;
+  margin-right: 82px;
+  margin-top: 2px;
+  width: 242px;
+}
+
+#contact textarea {
+	float: right;
+  height: 234px;
+  margin-right: 45px;
+  width: 278px;
+}
+
+#send 
+{
+  margin-left: 285px;
+}
+
+.fb
+{
+	background-image:url(../../img/fb.png);
+	background-position:top left;
+	width: 87px;
+	height:87px;
+	display: block;
+	float: left;
+	margin-left: 25px;
+}
+
+.fb:hover
+{
+	background-position:bottom left;
+}
+
+.tw
+{
+	background-image:url(../../img/tw.png);
+	background-position:top left;
+	width: 87px;
+	height:87px;
+	display: block;
+	float: left;
+	margin-left: 25px;
+}
+
+.tw:hover
+{
+	background-position:bottom left;
+}
+
+.s-small
+{
+	background-size:64px 128px !important;
+	width: 64px !important;
+	height:64px !important;
+	
+}
+
+
+/*media.php*/
+.m-pic
+{
+	float: left;
+}
+
+.m-pic a
+{
+	display: block;
+	text-decoration:underline;
+}
+
+.clear-hr
+{
+	border-top: solid 1px #cbcbcb;
+clear: both;
+width: 846px;
+margin-top: 198px;
+}
+
+
+.clear-hr-2
+{
+	border-top: solid 1px #cbcbcb;
+clear: both;
+width: 846px;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+.shape
+{
+	margin-top: 51px;
+margin-left: 18px;
+}
+
+.shape-a
+{
+	margin-left: 74px;
+margin-top: 11px;
+}
+
+.wsj
+{
+	margin-left: 72px;
+margin-top: 90px;
+}
+
+.wsj-a
+{
+	margin-left: 47px;
+margin-top: 43px;
+
+}
+
+.tlc
+{
+	margin-top: 54px;
+margin-left: 63px;
+}
+
+.tlc-a
+{
+	margin-left: 48px;
+margin-top: 6px;
+}
+
+.npr
+{
+	margin-top: 40px;
+margin-left: 2px;
+}
+
+.npr-a
+{
+	margin-top: 17px;
+margin-left: 94px;
+}
+
+.uttv
+{
+	margin-left: 95px;
+margin-top: 48px;
+}
+
+.uttv-a
+{
+	margin-top: 26px;
+margin-left: 82px;
+}
+
+.life-hacker
+{
+	margin-left: 95px;
+margin-top: 48px;
+}
+
+.life-hacker-a
+{
+	margin-top: 26px;
+margin-left: 58px;
+}
+
+.sd-reader
+{
+	margin-left: 7px;
+margin-top: 48px;
+}
+
+.sd-reader-a
+{
+	margin-top: 26px;
+margin-left: 21px;
+}
+
+.cbs {
+  margin-left: 93px;
+  margin-top: 48px;
+}
+
+.cbs-a {
+  margin-left: 84px;
+  margin-top: 37px;
+}
+
+.del-mar {
+  margin-left: 124px;
+  margin-top: 72px;
+}
+
+.del-mar-a {
+  margin-left: 21px;
+  margin-top: 62px;
+}
+
+
+.la {
+  margin-left: 3px;
+  margin-top: 72px;
+}
+
+.la-a {
+  margin-left: 36px;
+  margin-top: 62px;
+}
+
+.brown {
+  margin-left: 73px;
+  margin-top: 72px;
+}
+
+.brown-a {
+  margin-left: 21px;
+  margin-top: 99px;
+}
+
+.f5 {
+margin-left: 115px;
+margin-top: 88px;
+}
+
+.f5-a {
+margin-left: 56px;
+margin-top: 109px;
+}
+
+
+.small
+{
+	font-size: 12px;
+	margin-top: 86px;
+}
